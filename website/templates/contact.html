@@ -7,25 +7,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Contact</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo non, repellendus totam aspernatur omnis hic aliquam laboriosam, beatae nemo adipisci voluptate in libero iusto ipsum voluptatibus quasi minima. Illo, maiores!</p>
-
-    <div class="border border-secondary border-1 bg-light p-5 m-5">
-    <div class="form-floating mb-3 d-flex flex-row w-100">
-        <span><strong>Your Email</strong></span>
-        <label for="floatingInput"></label>
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      </div>
-      <div class="form-floating d-flex flex-row w-100">
-        <span><strong>Your message</strong></span>
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
-        <label for="floatingTextarea2"></label>
-      </div>
-      <div class="d-flex">
-        <button type="button" class="btn btn-primary ms-auto mt-2">Submit</button>
-    </div>
+    <div class="container-fluid p-5 bg-white"> 
+      <h1>Contact</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo non, repellendus totam aspernatur omnis hic aliquam laboriosam, beatae nemo adipisci voluptate in libero iusto ipsum voluptatibus quasi minima. Illo, maiores!</p>
+      <div class="border border-secondary border-1 bg-light p-5ç m-5">
+        <div class="form-floating mb-3 row w-100">
+            <div class="col-2 d-flex justify-content-end">
+                <label for="floatingInput"><strong>Your Email</strong></label>
+            </div>
+            <div class="col-10">
+                <input type="email" class="form-control" id="floatingInput" placeholder="Your email">
+            </div>
+        </div>
+        <div class="form-floating d-flex flex-row w-100">
+            <div class="col-2 d-flex justify-content-end">
+                <label for="floatingTextarea2"><strong>Your message</strong></label>
+            </div>
+            <div class="col-10 justify-content-end">
+                <textarea class="form-control" placeholder="Please enter your message here..." id="floatingTextarea2" style="height: 150px"></textarea>
+            </div>
+        </div>
+        <div class="d-flex">
+            <button type="button" class="btn btn-primary ms-auto mt-2">Submit</button>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</div> 
   </body>
 </html>
 
